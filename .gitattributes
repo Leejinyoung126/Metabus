@@ -1,2 +1,13 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# ShaderLab 언어 무시
+*.shader linguist-detectable=false
+*.cginc linguist-detectable=false
+
+# Unity 메타파일도 무시
+*.meta linguist-detectable=false
+
+# C# 파일은 C#으로 강제 지정
+*.cs linguist-language=C#
+
